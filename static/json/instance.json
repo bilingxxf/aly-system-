@@ -1,0 +1,315 @@
+{
+	"InstanceChargeType": [{
+		"text": "包年包月",
+		"val": 0
+	},{
+		"text": "按量付费",
+		"val": 1
+	}],
+	"vCPU": [{
+		"text": "所有",
+		"val": ""
+	},{
+		"text": "1 vCPU",
+		"val": 1
+	},{
+		"text": "2 vCPU",
+		"val": 2
+	},{
+		"text": "4 vCPU",
+		"val": 4
+	},{
+		"text": "8 vCPU",
+		"val": 8
+	},{
+		"text": "12 vCPU",
+		"val": 12
+	},{
+		"text": "16 vCPU",
+		"val": 16
+	},{
+		"text": "24 vCPU",
+		"val": 24
+	},{
+		"text": "32 vCPU",
+		"val": 32
+	},{
+		"text": "54 vCPU",
+		"val": 54
+	},{
+		"text": "56 vCPU",
+		"val": 56
+	},{
+		"text": "64 vCPU",
+		"val": 64
+	}],
+	"MemorySize": [{
+		"text": "所有",
+		"val": ""
+	},{
+		"text": "0.5 GiB",
+		"val": 0.5
+	},{
+		"text": "1 GiB",
+		"val": 1
+	},{
+		"text": "2 GiB",
+		"val": 2
+	},{
+		"text": "4 GiB",
+		"val": 4
+	},{
+		"text": "8 GiB",
+		"val": 8
+	},{
+		"text": "12 GiB",
+		"val": 12
+	},{
+		"text": "16 GiB",
+		"val": 16
+	},{
+		"text": "24 GiB",
+		"val": 24
+	},{
+		"text": "32 GiB",
+		"val": 32
+	},{
+		"text": "48 GiB",
+		"val": 48
+	},{
+		"text": "60 GiB",
+		"val": 60
+	},{
+		"text": "64 GiB",
+		"val": 64
+	},{
+		"text": "96 GiB",
+		"val": 96
+	},{
+		"text": "120 GiB",
+		"val": 120
+	},{
+		"text": "128 GiB",
+		"val": 128
+	},{
+		"text": "192 GiB",
+		"val": 192
+	},{
+		"text": "224 GiB",
+		"val": 224
+	},{
+		"text": "240 GiB",
+		"val": 240
+	},{
+		"text": "256 GiB",
+		"val": 256
+	},{
+		"text": "480 GiB",
+		"val": 480
+	},{
+		"text": "512 GiB",
+		"val": 512
+	}],
+	"Architecture": [{
+		"name": "x86 计算",
+		"id": 0,
+		"children": [{
+			"name": "通用型",
+			"id": 0,
+			"type": {
+				"g5": "通用型 g5"
+			}
+		},{
+			"name": "计算型",
+			"id": 1,
+			"type": {
+				"c5": "计算型 c5", 
+				"ic5": "密集计算型 ic5"
+			}
+		},{
+			"name": "内存型",
+			"id": 2,
+			"type": {
+				"r5": "内存型 r5"
+			}
+		},{
+			"name": "大数据型",
+			"id": 3,
+			"type": {
+				"d1ne": "大数据网络 d1ne"
+			}
+		},{
+			"name": "入门级（共享）",
+			"id": 4,
+			"type": {
+				"t5": "突发性能实例 t5",
+				"xn4": "共享基本型 xn4",
+				"mn4": "共享通用型 mn4",
+				"n4": "共享计算型 n4"
+			}
+		}]
+	},{
+		"name": "异构计算 GPU / FPGA",
+		"id": 1,
+		"children": [{
+			"name": "GPU 计算型 ",
+			"id": 0,
+			"type": {
+				"gn5": "GPU计算型 gn5"
+			}
+		}]
+	}],
+	"images": [{
+		"name": "公共镜像",
+		"id": 0
+	}],
+	"memories": [{
+		"name": "高效云盘",
+		"category": "cloud_efficiency"
+	},{
+		"name": "SSD云盘",
+		"category": "cloud_ssd"
+	}],
+	"timeList": [{
+		"id": 0,
+		"num": 1,
+		"type": "Week",
+		"name": "1周"
+	},{
+		"num": 1,
+		"id": 1,
+		"type": "Month",
+		"name": "1个月"
+	},{
+		"num": 2,
+		"id": 2,
+		"type": "Month",
+		"name": "2个月"
+	},{
+		"num": 3,
+		"id": 3,
+		"type": "Month",
+		"name": "3个月"
+	},{
+		"num": 6,
+		"id": 4,
+		"type": "Month",
+		"name": "半年"
+	},{
+		"num": 1,
+		"id": 5,
+		"type": "Year",
+		"name": "1年"
+	},{
+		"num": 2,
+		"id": 6,
+		"type": "Year",
+		"name": "2年"
+	},{
+		"num": 3,
+		"id": 7,
+		"type": "Year",
+		"name": "3年"
+	},{
+		"num": 4,
+		"id": 8,
+		"type": "Year",
+		"name": "4年"
+	},{
+		"num": 5,
+		"id": 9,
+		"type": "Year",
+		"name": "5年"
+	}],
+	"nicTypeList": [{
+		"id": 0,
+		"value": "全部",
+		"label": "all",
+		"portdata": "-1/-1",
+		"canFill": true
+	},{
+		"id": 1,
+		"value": "自定义TCP",
+		"label": "tcp",
+		"portdata": "例如：22/22或3389/3389",
+		"canFill": false
+	},{
+		"id": 2,
+		"value": "自定义UDP",
+		"label": "udp",
+		"portdata": "例如：22/22或3389/3389",
+		"canFill": false
+	},{
+		"id": 3,
+		"value": "全部 ICMP(IPv4)",
+		"label": "icmp",
+		"portdata": "-1/-1",
+		"canFill": true
+	},{
+		"id": 4,
+		"value": "全部 GRE",
+		"label": "gre",
+		"portdata": "-1/-1",
+		"canFill": true
+	},{
+		"id": 5,
+		"value": "SSH(22)",
+		"label": "ssh",
+		"portdata": "22/22",
+		"canFill": true
+	},{
+		"id": 6,
+		"value": "telnet(23)",
+		"label": "telnet",
+		"portdata": "23/23",
+		"canFill": true
+	},{
+		"id": 7,
+		"value": "HTTP (80)",
+		"label": "http",
+		"portdata": "80/80",
+		"canFill": true
+	},{
+		"id": 8,
+		"value": "HTTPS (443)",
+		"label": "https",
+		"portdata": "443/443",
+		"canFill": true
+	},{
+		"id": 9,
+		"value": "MS SQL (1433)",
+		"label": "mysql",
+		"portdata": "1433/1433",
+		"canFill": true
+	},{
+		"id": 10,
+		"value": "Oracle (1521)",
+		"label": "oracle",
+		"portdata": "1521/1521",
+		"canFill": true
+	},{
+		"id": 11,
+		"value": "MySQL (3306)",
+		"label": "mysql",
+		"portdata": "3306/3306",
+		"canFill": true
+	},{
+		"id": 12,
+		"value": "RDP (3389)",
+		"label": "rdp",
+		"portdata": "3389/3389",
+		"canFill": true
+	},{
+		"id": 13,
+		"value": "PostgreSQL (5432)",
+		"label": "postgresql",
+		"portdata": "5432/5432",
+		"canFill": true
+	},{
+		"id": 14,
+		"value": "Redis (6379)",
+		"label": "redis",
+		"portdata": "6379/6379",
+		"canFill": true
+	}]
+}

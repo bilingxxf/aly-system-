@@ -1,0 +1,5 @@
+{
+  "path": ["./static", "./src"],
+  "minJs": "false",
+  "filterTypes": ["css", "scss", "html", "less", "styl", "vue"]
+}
